@@ -18,7 +18,7 @@ Contain notes on what the existing system capabilities are today.
 - `System Health` - a system monitor tool to measure the health of the system. Are Smart Fridges talking?, are servers up?
 
 ### Questions
-1. Is feedback it's own component [ADR_001](../ArchitectureDecisionRecords/001_FeedbackComponentAMajorComponent)?
+1. Is feedback it's own component [ADR_001](../ArchitectureDecisionRecords/001_FeedbackComponentAMajorComponent.md)?
 2. Can reservations happen?
     - What happens if user does not pick up meals?
     - What happens if another user pick up meals?
