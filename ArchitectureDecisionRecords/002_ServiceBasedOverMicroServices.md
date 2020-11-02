@@ -17,3 +17,6 @@ It will allow a "share-as-much-as-possible" approach, rather than the microservi
 
 # Decision
 Use a Service Architecture over a Microservices Architecture.  
+
+# Consequences
+Data will be easily accessible across our components, allowing Farmacy Foods to integrate their various tools into a cohesive system. However, these components will be more tightly coupled. They will be more vulnerable to the risks associated with changing a single component or database, especially if connected to many others.
