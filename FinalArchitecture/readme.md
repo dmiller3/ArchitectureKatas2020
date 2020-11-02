@@ -45,7 +45,8 @@ Smart Fridge is a 3rd party system that is currently being used by Farmacy foods
 ### Kiosk (Toast)
 Kiosks are used to sell meals or products that are not stored in Smart Fridges and require Farmacy Food personnel to be present for transactions to occur.
 
-![Kiosk Use Case](images/KioskUseCase.png)
+<img src="images/KioskUseCase.png" width="600">
+
 
 *Assumptions:*
 1. Kiosks can be used to scan meals upon delivery from the Ghost Kitchen to update inventory.
@@ -69,12 +70,12 @@ Customers can send a text to order food.
 **Kiosk**<br>
 Customers will likely directly interact with this interface, but a Farmacy Food employee could use the Kiosk to pull up a customer's stored payment information.
 
-![Ordering System Use Case](images/OrderSystemUseCase.png)
+<img src="images/OrderSystemUseCase.png" width="600">
 
 ### Finance
 Currently, QuickBooks is being used to manage FarmacyFood finances. The system will be the single source of truth for all finances that leave and enter Farmacy Foods.
 
-![Finance Use Case](images/FinanceUseCase.png)
+<img src="images/FinanceUseCase.png" width="600">
 
 ### Kitchen Management
 The Ghost Kitchen uses the Kitchen Management component to set pricing, see which Smart Fridges are low on inventory, and provide a user interface to ChefTec.
@@ -83,7 +84,7 @@ ChefTec validates meal pricing and manages raw material inventory. It also has t
 
 This system will also have a user interface to simplify the ChefTec system to only information needed by the Ghost Kitchen.
 
-![Kitchen Use Case](images/KitchenManagementUseCase.png)
+<img src="images/KitchenManagementUseCase.png" width="600">
 
 ### Global Inventory System
 There are currently three systems that manage inventory: ChefTec, Smart Fridges, and Kiosks. The main problem statement is to integrate all the inventory management systems into a single source of truth. The Global Inventory will be the single source of truth for products ready to sell to customers, and ChefTec will remain a separate entity to manage raw ingredients/components inventory.
@@ -91,17 +92,17 @@ There are currently three systems that manage inventory: ChefTec, Smart Fridges,
 *Assumptions:*
 Kiosks can be used to update the Global Inventory System. For example, Ghost Kitchen delivers a meal, Farmacy Food employee scans the meal to update the inventory.
 
-![Global Inventory System Use Case](images/GlobalInventorySystemUseCase.png)
+<img src="images/GlobalInventorySystemUseCase.png" width="600">
 
 ### User Profile
 This component will store user-health traits and goals, order history, and payment preferences of users.
 
-![User Profle Use Case](images/UserProfileUseCase.png)
+<img src="images/UserProfileUseCase.png" width="600">
 
 ### Analytics
 This component provides data analytics for the system and will be responsible for managing and processing user feedback.
 
-![Analytics Use Case](images/AnalyticsUseCase.png)
+<img src="images/AnalyticsUseCase.png" width="600">
 
 ### System Health
 This component is used to monitor the system's health in real-time and send out alerts for critical failures (Fridged powered down).
