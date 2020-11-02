@@ -6,7 +6,6 @@
   * [Smart Fridge](#smart-fridge)
   * [Kiosk (Toast)](#kiosk--toast-)
   * [Ordering System](#ordering-system)
-    + [Customer Interfaces](#customer-interfaces)
   * [Finance](#finance)
   * [Kitchen Management](#kitchen-management)
   * [Global Inventory System](#global-inventory-system)
