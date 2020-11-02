@@ -18,7 +18,7 @@ Contain notes on what the existing system capabilities are today.
 - `System Health` - a system monitor tool to measure the health of the system. Are Smart Fridges talking?, are servers up?
 
 ### Questions
-1. Is feedback it's own component [ADR_001](../ArchitectureDecisionRecords/001_FeedbackComponeAMajorComponent)? Component is now renamed to Analytics.
+1. Is feedback it's own component [ADR_001](../ArchitectureDecisionRecords/001_FeedbackComponeAMajorComponent)? Component is now renamed to **Analytics**.
 2. Can reservations happen?
     - What happens if user does not pick up meals?
     - What happens if another user pick up meals?
@@ -27,4 +27,3 @@ Contain notes on what the existing system capabilities are today.
 ### Assumptions
 1. We are assuming that no custom made to order meals are offered at the moment.
 2. ChefTec does have an inventory system, but we are assuming that it will handle only raw ingredients to make meals at the Ghost Kitchen and not be used to handle the inventory of meals stored in Smart Fridges.
-

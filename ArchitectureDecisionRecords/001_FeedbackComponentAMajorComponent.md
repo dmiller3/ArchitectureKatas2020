@@ -19,3 +19,6 @@ Make the Feedback component a major component.
 
 # Consequences
 Feedback will need two channels of communication, the ordering system and the User Profile.
+
+# Update
+This component has now been renamed **Analytics**
