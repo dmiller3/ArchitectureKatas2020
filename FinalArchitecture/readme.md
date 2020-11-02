@@ -91,7 +91,7 @@ There are currently three systems that manage inventory: ChefTec, Smart Fridges,
 *Assumptions:*
 Kiosks can be used to update the Global Inventory System. For example, Ghost Kitchen delivers a meal, Farmacy Food employee scans the meal to update the inventory.
 
-![Global Inventory System Use Case](images/GlobalnventorySystemUseCase.png)
+![Global Inventory System Use Case](images/GlobalInventorySystemUseCase.png)
 
 ### User Profile
 This component will store user-health traits and goals, order history, and payment preferences of users.
